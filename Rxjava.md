@@ -108,8 +108,11 @@ chain operators 链式操作
 onError()
 onErrorResumeNext()
 onErrorReturn()
+
 ### 六. 情景分析
 
+
+[ 可能是东半球最全的RxJava使用场景小结](http://blog.csdn.net/theone10211024/article/details/50435325)
 
 
 ### 七. demo
@@ -124,3 +127,8 @@ onErrorReturn()
 4. [FRP on Android](http://slides.com/yaroslavheriatovych/frponandroid)
 
 ### 十. 推荐
+[Awesome-RxJava](https://github.com/lzyzsd/Awesome-RxJava)
+[RxJava文档中文版](https://mcxiaoke.gitbooks.io/rxdocs/content/)
+### 优秀的Rxjava开源项目
+1. [RxJava-Android-Samples](https://github.com/kaushikgopal/RxJava-Android-Samples)
+2. [Meizhi](https://github.com/drakeet/Meizhi)
