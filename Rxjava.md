@@ -32,23 +32,25 @@ How to execute heavy tasks on background threads and deliver result(or error)in 
 Functional Reactive Programming 函数响应式编程
 ### 四. 概念，名词
 Rxjava采用的是一种扩展的观察者模式，和标准的观察者模式有一点区别：
-```
+
+
 it differs in one key way - Observables often don't start emitting items until someone explicitly subscribes to them 
-'''
+
+
 (4.1) Observables: 被观察的对象/发布者
 
 (4.2) Subscriber、Observer:观察者/订阅者
 (4.3) subscription:interface 订阅，取消订阅
 (4.4) subscribe： 
 上述关系汇总如下：
-```
+
 subscription = observable.subscibe(subsciber)
 
 subscription.unsubscribe()
 另外：
 通过subscribeon(Scheduler.io())指定被观察者执行的线程
 observeOn(AndroidSechedules.mainThread()) 观察者执行的线程
-```
+
 #### (4.5) Observable create
 *. create()
 *. just()
